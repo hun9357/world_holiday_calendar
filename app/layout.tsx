@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   description: "Complete list of public holidays for 20 countries in 2026. View official calendars, national holidays, and celebrations worldwide.",
   keywords: "public holidays, 2026 calendar, national holidays, world holidays, official holidays",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://worldholidays2026.com'),
+  verification: {
+    google: "KLUWmaJTvSkVldncIo2cPl6KQtr610FUWuZhywdYN5Y",
+  },
 };
 
 export default function RootLayout({
